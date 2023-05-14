@@ -1,0 +1,54 @@
+p{color: rgb(148, 44, 207);}
+
+h1{color: rgb(148, 44, 207);}
+
+html,body{height: 100%; width: 100%; background-color: rgb(167, 240, 234);}
+
+.topnav{background-color: rgb(212, 150, 248); overflow: hidden; position: fixed; width: 100%; top: 0%;}
+
+.topnav a{float: left; color: rgb(167, 240, 234); text-align: center; padding: 14px 16px; font-size: 17px;}
+
+.topnav a:hover{background-color: rgb(171, 73, 228); color: rgb(212, 150, 248);}
+
+.user-text{text-align:left; position: absolute; top: 65%; left: 50%; transform: translate(-50%, -50%); color: rgb(148, 44, 207);}
+
+*{box-sizing: border-box;}
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid rgb(148, 44, 207);
+    margin-top: 3px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+input[type=submit] {
+    background-color: rgb(212, 150, 248);
+    color: rgb(167, 240, 234);
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer; }
+
+input[type=submit]:hover {
+    background-color: rgb(171, 73, 228 );}
+
+.container {
+    background-color: rgb(167, 240, 234);
+    padding: 20px;}
+
+.services-text { text-align: left;
+    position: absolute;
+    top: 29%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: rgb(148, 44, 207);
+
+}
+img {
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 30%;
+}
+   
